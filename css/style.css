@@ -1,0 +1,307 @@
+* {
+    outline: 1px solid orange;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #222222;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 54px;
+    margin-bottom: 113px;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul {
+    display: flex;
+}
+
+.site-menu {
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-menu a {
+    color: #D4D4D4;
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+
+
+
+.contacts-menu span {
+    display: none;
+}
+
+.contacts-menu li:first-child a::before {
+    /* visibility: hidden; */
+    content: "";
+    background-image: url(../images/mail-icon\ 1.png);
+
+    display: inline-block;
+    width: 17px;
+    height: 12px;
+}
+
+.contacts-menu li:last-child a::before {
+    /* visibility: hidden; */
+    content: "";
+    background-image: url(../images/phone-icon\ 1.png);
+
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+}
+
+.contacts-menu li:first-child {
+    margin-right: 24px;
+}
+
+.logo-link {
+    margin-right: 62px;
+}
+
+header .left-column {
+    padding-left: 126px;
+}
+
+h1 {
+    color: #FFF;
+    font-family: "Courier New";
+    font-size: 44px;
+    font-weight: 700;
+    width: 238px;
+    line-height: 50px;
+    text-wrap: wrap;
+    margin: 0;
+}
+
+.description-text {
+    color: #D4D4D4;
+    font-size: 14px;
+    width: 254px;
+    margin: 32px 0 54px 0;
+}
+
+.sale-link {
+    font-size: 14px;
+    color: black;
+    background-color: #FFCB06;
+    border-radius: 25px;
+    padding: 17px 100px 16px 38px;
+    position: relative;
+}
+
+.advantages {
+    padding: 178px 0 79px 0;
+    background-color: #131313;
+}
+
+h2 {
+    display: none;
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-list p {
+    width: 180px;
+    color: #D4D4D4;
+    font-size: 14px;
+    margin-right: 80px;
+    position: relative;
+}
+
+.contacts-menu span a {
+    display: none;
+}
+
+header .container {
+    padding-bottom: 179px;
+    background-image: url("../images/moon-rocket\ 1.png");
+    background-repeat: no-repeat;
+    background-position: 100% 140px;
+}
+
+.sale-link::after {
+    content: "";
+    background-image: url("../images/right-arrow-dark\ 1.png");
+    position: absolute;
+    display: inline-block;
+
+
+    top: 17px;
+    right: 19px;
+    width: 19px;
+    height: 16px;
+}
+
+.advantages-list li:nth-child(1) p::before {
+    content: "";
+    background-image: url("../images/advantage-icon-1\ 1.png");
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -102px;
+
+    width: 60px;
+    height: 68px;
+}
+
+.advantages-list li:nth-child(2) p::before {
+    content: "";
+    background-image: url("../images/advantage-icon-2\ 1.png");
+    display: inline-block;
+    width: 60px;
+    height: 68px;
+    position: absolute;
+    left: 0;
+    top: -102px;
+}
+
+.advantages-list li:nth-child(3) p::before {
+    content: "";
+    background-image: url("../images/advantage-icon-3\ 1.png");
+    display: inline-block;
+    width: 60px;
+    height: 68px;
+    position: absolute;
+    left: 0;
+    top: -102px;
+}
+
+.advantages-list li:nth-child(4) p::before {
+    content: "";
+    background-image: url("../images/advantage-icon-4\ 1.png");
+    display: inline-block;
+    width: 60px;
+    height: 68px;
+    position: absolute;
+    left: 0;
+    top: -102px;
+}
+
+/*.moon-vacation .left-column {
+    width: 620px;
+}*/
+
+
+.moon-vacation .subtitle {
+    padding-top: 5px;
+    font-family: "Courier New";
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 44px;
+    width: 375px;
+}
+
+.moon-vacation p {
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+.recomendation .container {
+    display: flex;
+    justify-content: baseline;
+
+}
+
+.recomendation .left-column {
+    width: 455px;
+}
+
+.recomendation .right-column {
+    width: 401px;
+}
+
+
+
+.moon-vacation .container {
+    display: flex;
+    
+    position: relative;
+
+
+
+}
+
+.moon-vacation .container .right-column {
+
+    font-family: Verdana;
+    font-size: 14px;
+    margin-top: 85px;
+
+
+
+}
+
+
+
+.moon-vacation .container .left-column {
+
+    
+}
+
+.moon-vacation .container .right-column {
+    
+
+}
+
+
+.recomendation {
+    margin-top: 52px;
+    margin-bottom: 126px;
+}
+
+.recomendation .container .subtitle {
+    font-family: "Courier New";
+    font-size: 24px;
+}
+
+.recomendation .right-column{
+    margin-left: 64px;
+    
+}
+
+.recomendation li::before{
+    content: "";
+    display: inline-block;
+    background-color: #FFCB06;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: -23px;
+    top: 6px;
+}
+
+.recomendation .container li {
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.recomendation .container {
+    display: flex;
+}
+
