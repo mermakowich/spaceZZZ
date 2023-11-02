@@ -1,2 +1,2 @@
 # spaceZZZ
-ZOV ZOV ZOV ZOV ZOV
+ZА НАШИХ ZOV ZOV ZOV ZOV ZOV
