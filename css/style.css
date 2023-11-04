@@ -372,13 +372,13 @@ footer .right-column{
     display: flex;
     justify-content: space-around;
     padding-top: 90px;
-    width: 700px;
+    
 }
 
 .footer-menu {
     display: flex;
     margin-left: 98px;
-    width: 700px;
+    width: 780px;
 }
 
 .footer-menu li {
@@ -409,6 +409,7 @@ footer .right-column{
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 88px;
+    
 }
 
 .footer-submenu-title {
@@ -436,4 +437,3 @@ footer .right-column{
     color: #888888;
     
 }
-
